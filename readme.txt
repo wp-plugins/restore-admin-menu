@@ -1,6 +1,6 @@
 === Restore Admin Menu (ru_RU) ===
 Contributors: SergeyBiryukov
-Donate link: http://www.charitywater.org/donate/
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B6XNFLZXN3QZW
 Tags: l10n, releases, ru_RU, admin, update
 Requires at least: 3.5
 Tested up to: 3.6
