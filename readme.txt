@@ -39,5 +39,8 @@ After installing and activating the plugin, try to deactivate it. If you still s
 
 == Changelog ==
 
+= 0.2 =
+* Account for `ru_extend_menu()` function in unofficial builds
+
 = 0.1 =
 * Initial release

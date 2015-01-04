@@ -5,7 +5,7 @@ Plugin URI: http://codex.wordpress.org/ЧАВО/Исчезло_меню_в_па�
 Description: Restores the admin menu when updating from 3.1.x or an older install to the latest release from ru.wordpress.org.
 Author: Sergey Biryukov
 Author URI: http://ru.wordpress.org/
-Version: 0.1
+Version: 0.2
 */ 
 
 function ram_remove_old_files() {
