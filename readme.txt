@@ -35,7 +35,7 @@ After installing and activating the plugin, try deactivating it. If you still se
 
 == Screenshots ==
 
-1. The admin menu.
+The admin menu.
 
 == Changelog ==
 
