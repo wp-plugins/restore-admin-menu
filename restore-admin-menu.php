@@ -9,18 +9,22 @@ Version: 0.1
 */ 
 
 function ram_remove_old_files() {
-	if ( ! function_exists( 'ru_accomodate_markup' ) )
+	if ( function_exists( 'ru_accomodate_markup' ) ) {
+		remove_action( 'admin_head',            'ru_accomodate_markup' );
+		remove_action( 'admin_print_styles',    'ru_accomodate_markup' );
+		remove_action( 'admin_enqueue_scripts', 'ru_accomodate_markup' );
+	} elseif ( function_exists( 'ru_extend_menu' ) ) {
+		remove_action( 'admin_head',            'ru_extend_menu' );
+	} else {
 		return;
-
-	remove_action( 'admin_head',            'ru_accomodate_markup' );
-	remove_action( 'admin_print_styles',    'ru_accomodate_markup' );
-	remove_action( 'admin_enqueue_scripts', 'ru_accomodate_markup' );
+	}
 
 	$old_files = array( 'ru_RU.php', 'ru_RU.css', 'ru_RU-ie.css', 'ms-ru_RU.css' );
 
 	foreach ( $old_files as $file ) {
-		if ( file_exists( WP_LANG_DIR . '/' . $file ) )
+		if ( file_exists( WP_LANG_DIR . '/' . $file ) ) {
 			@unlink( WP_LANG_DIR . '/' . $file );
+		}
 	}
 }
 add_action( 'admin_init', 'ram_remove_old_files' );
