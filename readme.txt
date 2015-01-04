@@ -25,7 +25,7 @@ wp-content/languages/ms-ru_RU.css
 `
 The best option is just to remove them manually via FTP. If for some reason you can't do that, you can try this plugin, which restores the admin menu by unhooking `ru_accomodate_markup()` function and attempts to remove the obsolete files.
 
-After installing and activating the plugin, try to deactivate it. If you still see the admin menu, you can safely remove the plugin, its job is done. If you can't see the admin menu, activate the plugin again.
+After installing and activating the plugin, try deactivating it. If you still see the admin menu, you can safely remove the plugin, its job is done. If you can't see the admin menu, activate the plugin again.
 
 == Installation ==
 
