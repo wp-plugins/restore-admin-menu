@@ -3,7 +3,7 @@ Contributors: SergeyBiryukov
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B6XNFLZXN3QZW
 Tags: l10n, releases, ru_RU, admin, update
 Requires at least: 3.5
-Tested up to: 3.6
+Tested up to: 4.1
 Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,10 @@ After installing and activating the plugin, try to deactivate it. If you still s
 1. Go to /wp-admin/plugin-install.php.
 2. Enter "Restore Admin Menu" in the search field.
 3. Install and activate the plugin.
+
+== Screenshots ==
+
+1. The admin menu.
 
 == Changelog ==
 
