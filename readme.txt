@@ -3,7 +3,7 @@ Contributors: SergeyBiryukov
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B6XNFLZXN3QZW
 Tags: l10n, releases, ru_RU, admin, update
 Requires at least: 3.5
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
